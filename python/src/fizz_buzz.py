@@ -3,14 +3,13 @@ class FizzBuzz:
     def fizzBuzz(
         self,
         number,
-    ) -> bool:
-        if number % 5 == 0 and number % 3 == 0:
-            return 'FizzBuzz'
-
-        if number % 5 == 0:
-            return 'Buzz'
+    ) -> str:
+        string = ""
 
         if number % 3 == 0:
-            return 'Fizz'
+            string += 'Fizz'
 
-        return str(number)
+        if number % 5 == 0:
+            string += 'Buzz'
+
+        return string or str(number)
