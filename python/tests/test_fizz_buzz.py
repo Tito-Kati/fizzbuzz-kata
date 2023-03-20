@@ -12,3 +12,13 @@ class TestFizzBuzz:
 
         # Then
         assert fizzBuzz.fizzBuzz(1) == '1'
+
+    def test_returns_string_representation_of_number_2(
+        self,
+    ):
+        # Given
+        fizzBuzz = FizzBuzz()
+        # When
+
+        # Then
+        assert fizzBuzz.fizzBuzz(2) == '2'
