@@ -4,4 +4,4 @@ class FizzBuzz:
         self,
         number,
     ) -> bool:
-        return '1'
+        return str(number)
