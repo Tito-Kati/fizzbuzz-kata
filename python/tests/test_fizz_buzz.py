@@ -14,3 +14,6 @@ class TestFizzBuzz:
 
     def test_returns_fizz_when_3_given(self, fizzBuzz):
         assert fizzBuzz.fizzBuzz(3) == 'Fizz'
+
+    def test_returns_fizz_when_6_given(self, fizzBuzz):
+        assert fizzBuzz.fizzBuzz(6) == 'Fizz'
