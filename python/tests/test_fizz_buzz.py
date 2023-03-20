@@ -22,3 +22,13 @@ class TestFizzBuzz:
 
         # Then
         assert fizzBuzz.fizzBuzz(2) == '2'
+
+    def test_returns_fizz_when_3_given(
+        self,
+    ):
+        # Given
+        fizzBuzz = FizzBuzz()
+        # When
+
+        # Then
+        assert fizzBuzz.fizzBuzz(3) == 'Fizz'
