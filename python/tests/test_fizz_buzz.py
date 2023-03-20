@@ -17,3 +17,6 @@ class TestFizzBuzz:
 
     def test_returns_fizz_when_multiple_of_3_like_6_given(self, fizzBuzz):
         assert fizzBuzz.fizzBuzz(6) == 'Fizz'
+
+    def test_returns_buzz_when_multiple_of_5_like_5_given(self, fizzBuzz):
+        assert fizzBuzz.fizzBuzz(5) == 'Buzz'
